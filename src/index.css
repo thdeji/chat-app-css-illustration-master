@@ -1,15 +1,20 @@
 @import "tailwindcss";
+@font-face {
+    font-family: Rubik;
+    src: url(./fonts/Rubik-VariableFont_wght.ttf);
+}
 
 @theme{
---color-Purple300sub-heading-at-the-top-of-the-app-UI: hsl(276, 100%, 81%);
---color-Purple600chat-on-the-left: hsl(276, 55%, 52%);
+    --font-Rubik: Rubik;
+--color-Purple300: hsl(276, 100%, 81%);
+--color-Purple600: hsl(276, 55%, 52%);
 --colorGray500chat-on-the-right-paragraph: hsl(270, 7%, 64%);
---color-Gray300placeholder-text: hsl(206, 6%, 79%);
---color-Purple950main-heading: hsl(271, 36%, 24%);
+--color-Gray300: hsl(206, 6%, 79%);
+--color-Purple950: hsl(271, 36%, 24%);
 --color-Pink500: hsl(293, 100%, 63%);
 --color-Purple500: hsl(264, 100%, 61%);
 --color-White: hsl(0, 100%, 100%);
---color-Gray100app-background: hsl(270, 20%, 96%);
---color-Purple950submit-button-background: hsl(271, 36%, 24%);
---color-Pink400radio-button-outline: hsl(289, 100%, 72%);
+--color-Gray100app: hsl(270, 20%, 96%);
+--color-Purple950: hsl(271, 36%, 24%);
+--color-Pink400: hsl(289, 100%, 72%);
 }
